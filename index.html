@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grafi-media</title>
-    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Alumni+Sans:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <a href="#" class="nav-branding"><img src="IMG/Logo Grafi-Media.png" alt=""></a>
+            <a href="#" class="nav-branding" id="logo"><img src="IMG/Logo Grafi-Media.png" alt=""></a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Nosotros</a>
+                    <a href="#info" class="nav-link">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Proyectos</a>
+                    <a href="#portafolo" class="nav-link">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" id="a_Blue">Contacto</a>
+                    <a href="#cotizar" class="nav-link" id="a_Blue">Contacto</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -55,7 +58,7 @@
 
     <!-- Informacion -->
 
-    <div class="info">
+    <div class="info" >
         <div class="info__uno" id="no_padding">
             <h3>¿Estas listo para llegar mas lejos?</h3>
             <p>El uso de internet crece constantemente, incluyendo a tus futuros clientes. Un sitio web atractivo muestra tus productos y servicios efectivamente atrayendo nuevos clientes, lo que puede ser decisivo para trabajar con nosotros.</p>                     
@@ -64,7 +67,7 @@
             <img src="IMG/Anuncio Grafi-Media.png" id="info__img">
             <div class="info__tres">
                 <div class="info__uno">
-                    <h3>¿Por qué contratarnos?</h3>
+                    <h3 id="info">¿Por qué contratarnos?</h3>
                     <p>Transformamos tu visión en una página web de impacto con nuestro enfoque en marketing digital y desarrollo web. Contamos con 5 años de experiencia en el mercado, combinamos tendencias actuales con un diseño atractivo para entregarte la página web de tus sueños en un tiempo récord menor de 3 días.</p>    
                 </div>
                 <div class="info__uno">
@@ -82,7 +85,7 @@
             <h3>Diseño Web</h3>
             <p>Tenemos la experiencia y la creatividad necesaria para formular soluciones innovadoras que conecten tu negocio a internet con una página web a tu medida que genere el impacto que estabas buscando.</p>
         </div>
-        <div class="dWeb__precios">
+        <div class="dWeb__precios" >
             <div class="dweb__precios___uno">
                 <h3>Web Personal</h3>
                 <p>¿Eres influenciador? ¿Tienes alguna marca personal? Hazte conocer con este plan especial</p>
@@ -114,7 +117,7 @@
                     <p>- Certificado SSL de Seguridad</p>
                     <p>- Alojamiento gratuito por 1 año</p>
                     <p>- Social Media Kit</p>
-                <div class="dweb__precios___tres____boton">Cuéntame mas!</div>
+                <div class="dweb__precios___tres____boton" id="cotizar">Cuéntame mas!</div>
             </div>
             
         </div>
@@ -123,17 +126,15 @@
 
     <!-- portafolio -->
 
-    <div class="portafolio">
+    <div class="portafolio" id="portafolio">
         <div class="portafolio__texto">
             <h3>portafolio</h3>
         </div>
         <div class="portafolio__img">
-            <img src="IMG/MasterCars Portafolio.png" id="portafolio__img">
-            <img src="IMG/Rvoz Portafolio.png" id="portafolio__img">
-            <img src="IMG/Buffalo Grill portafolior.png" id="portafolio__img">
-            <img src="IMG/Rvoz Portafolio.png" id="portafolio__img">
-            <img src="IMG/MasterCars Portafolio.png" id="portafolio__img">
-            <img src="IMG/Chart Generator.PNG" id="portafolio__img">
+            <a href="https://mastercarsautotronica.com/"><img src="IMG/MasterCars Portafolio.png" id="portafolio__img"></a>
+            <a href="Buffalo-Restaurante-main/Buffalo Rstaurant/index.html"><img src="IMG/Buffalo Grill portafolior.png" id="portafolio__img"></a>
+            <a href="Rvoz.html"><img src="IMG/Rvoz Portafolio.png" id="portafolio__img"></a>
+            <a href="chartGenerator.html"><img src="IMG/Chart Generator.PNG" id="portafolio__img"></a>
         </div>
     </div>
 
@@ -142,24 +143,24 @@
     <div class="footer">
         <div class="footer__textoUno">
             <h3>Navegación</h3>
-            <p>Inicio</p>
-            <p>Proyectos</p>
-            <p>Nosotros</p>
-            <p>Contacto</p>
+            <a href="#logo"><p>Inicio</p></a>
+            <a href="#portafolio"><p>Proyectos</p></a>
+            <a href="#info"><p>Nosotros</p></a>
+            <a href="#cotizar"><p>Contacto</p></a>
         </div>
         <div class="footer__textoDos">
             <h3>Contactó</h3>
             <p>Puedes encontrarnos en nuestras redes sociales</p>
             <div class="footer__textoDos___img">
                 <img src="IMG/Logo Facebook.png" id="footer__textoDos___img">
-                <img src="IMG/Logo Instagram.png" id="footer__textoDos___img">
+                <a href="https://www.instagram.com/grafi_media/"><img src="IMG/Logo Instagram.png" id="footer__textoDos___img"></a>
                 <img src="IMG/Logo Tik Tok.png" id="footer__textoDos___img">
                 <img src="IMG/Logo twitter.png" id="footer__textoDos___img">
             </div>
             <p>O llama al +57 3223058760</p>
         </div>
         <div class="footer__textoTres">
-            <img src="IMG/Logo Grafi-Media.png" id="footer__textoTres___img">
+            <a href="#logo"><img src="IMG/Logo Grafi-Media.png" id="footer__textoTres___img"></a>
             <p>Nuestra meta es ir más allá de un simple trato de vendedor a cliente. Queremos formar una verdadero vinculo contigo, asesorándote constantemente y con una dedicación absoluta para ayudarte a impulsar y mejorar tu negocio. Juntos, lograremos tus objetivos ...</p>
         </div>
     </div>

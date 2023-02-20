@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: 'Alumni Sans', sans-serif;
+    src: url(Fonts/AlumniSansCollegiateOne-Italic.ttf);
+}
+
+@font-face{
+    font-family: 'AlumniSansin';
+    src: url(Fonts/AlumniSansInlineOne-Italic.ttf);
+}
+
 
 /** Nav Bar**/
 
@@ -16,10 +26,15 @@ li{
 }
 
 a{
-    font-size: 16px; 
+    font-size: 16px;
     font-family: 'K2D';
     color: #595050ad;
     text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 #a_Blue{
@@ -682,6 +697,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
+    
   }
 
   .inicio__img__text{
@@ -690,15 +706,15 @@ body {
   }
 
   .inicio__img h1{   
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 55px; 
     color: #FFE29C;
     padding: 0 10px;
-    -webkit-text-stroke: 1px #90937b;
+    -webkit-text-stroke: 1px #00000099;
   }
 
   .inicio__img h2{   
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 35px; 
     color: #ffffff;
     padding: 0 10px;
@@ -802,7 +818,7 @@ body {
 }
 
 .tecnologias__texto{
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 20px;    
     text-align: center;
     color: #9C99AE;
@@ -886,7 +902,7 @@ body {
     padding: 0;
 }
 .info__uno h3{
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 27px; 
     color: #426ef2b7;
     padding: 10px;
@@ -1000,7 +1016,7 @@ body {
 }
 
 .dWeb__texto h3{
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 27px; 
     color: #426ef2b7;
     text-align: center;
@@ -1040,7 +1056,7 @@ body {
 }
 
 .dweb__precios___uno h3, .dweb__precios___dos h3, .dweb__precios___tres h3{
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 27px; 
     color: #00000089;
     text-align: center;   
@@ -1061,7 +1077,7 @@ body {
     align-content: center;
     display: grid;
     align-content: center;
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 60px; 
     color: #fff;
     text-align: center;
@@ -1075,7 +1091,7 @@ body {
     align-content: center;
     display: grid;
     align-content: center;
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 60px; 
     color: #fff;
     text-align: center;
@@ -1088,7 +1104,7 @@ body {
     height: 30px;
     background-color: #7492F3;
     margin: auto;
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 30px; 
     color: #fff;
     text-align: center;
@@ -1100,7 +1116,7 @@ body {
     height: 30px;
     background-color: #FFE29C;
     margin: auto;
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 30px; 
     color: #fff;
     text-align: center;
@@ -1230,7 +1246,7 @@ body {
     }
     
     .dWeb__texto h3{
-        font-family: 'Alumni Sans';
+        font-family: 'Alumni Sans', sans-serif;
         font-size: 27px; 
         color: #426ef2b7;
         text-align: center;
@@ -1270,7 +1286,7 @@ body {
     }
     
     .dweb__precios___uno h3, .dweb__precios___dos h3, .dweb__precios___tres h3{
-        font-family: 'Alumni Sans';
+        font-family: 'Alumni Sans', sans-serif;
         font-size: 27px; 
         color: #00000089;
         text-align: center;   
@@ -1291,7 +1307,7 @@ body {
         align-content: center;
         display: grid;
         align-content: center;
-        font-family: 'Alumni Sans';
+        font-family: 'Alumni Sans', sans-serif;
         font-size: 60px; 
         color: #fff;
         text-align: center;
@@ -1305,7 +1321,7 @@ body {
         align-content: center;
         display: grid;
         align-content: center;
-        font-family: 'Alumni Sans';
+        font-family: 'Alumni Sans', sans-serif;
         font-size: 60px; 
         color: #fff;
         text-align: center;
@@ -1318,7 +1334,7 @@ body {
         height: 30px;
         background-color: #7492F3;
         margin: auto;
-        font-family: 'Alumni Sans';
+        font-family: 'Alumni Sans', sans-serif;
         font-size: 30px; 
         color: #fff;
         text-align: center;
@@ -1330,7 +1346,7 @@ body {
         height: 30px;
         background-color: #FFE29C;
         margin: auto;
-        font-family: 'Alumni Sans';
+        font-family: 'Alumni Sans', sans-serif;
         font-size: 30px; 
         color: #fff;
         text-align: center;
@@ -1385,7 +1401,7 @@ body {
 }
 
 .portafolio__texto {
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 27px; 
     color: #426ef2b7;
     text-align: center;
@@ -1486,7 +1502,7 @@ body {
     }
     
     .portafolio__texto {
-        font-family: 'Alumni Sans';
+        font-family: 'Alumni Sans', sans-serif;
         font-size: 27px; 
         color: #426ef2b7;
         text-align: center;
@@ -1529,7 +1545,7 @@ body {
 }
 
 .footer__textoUno h3, .footer__textoDos h3, .footer__textoTres h3{
-    font-family: 'Alumni Sans';
+    font-family: 'Alumni Sans', sans-serif;
     font-size: 27px; 
     color: #00000089;
     text-align: center;
