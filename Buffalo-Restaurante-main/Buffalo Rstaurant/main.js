@@ -1,4 +1,3 @@
-const btn = document.querySelector(".btn-scroll")
 const btnReservar = document.querySelectorAll(".btn-scroll-reservar")
 
 btn.addEventListener("click", () => {
